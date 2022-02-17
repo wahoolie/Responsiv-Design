@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(16, 135, 246);
+}
+
+.circle {
+    height: 50%;
+    width: 50%;
+    background-color: yellow;
+    margin-left: 25%;
+    border-radius: 50%;
+}
+
+.circle::after {
+    content: '';
+    padding-bottom: 100%;
+    display: block;
+}
